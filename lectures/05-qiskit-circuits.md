@@ -10,6 +10,7 @@
 - Building small gate circuits and preparing a three-qubit **GHZ state**.
 - Simulating measurement outcomes, interpreting histograms and distinguishing finite-shot fluctuations from ideal probabilities.
 - Introducing the Bernstein–Vazirani problem and its circuit structure.
+- DiVincenzo criteria connecting programmable gates, qubit initialization, coherence and measurement to physical devices.
 
 **Study example:** [GHZ circuit in Qiskit](../examples/05_ghz.py).
 
