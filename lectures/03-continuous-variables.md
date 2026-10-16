@@ -2,7 +2,7 @@
 
 [← Course overview](../README.md) · [← Previous](02-qubits-gates.md) · [Next →](04-adiabatic-optimization.md)
 
-**Topics:** Optical quantum modes (qumodes), harmonic oscillators, field quadratures, ladder operators, Fock states, coherent light, vacuum, squeezed states, phase-space/Wigner representations, Gaussian and non-Gaussian resources, and Boson Sampling / Gaussian Boson Sampling.
+**Topics:** Optical quantum modes (qumodes), harmonic oscillators, field quadratures, ladder operators, Fock states, coherent light, vacuum, squeezed states, phase-space/Wigner representations, Gaussian and non-Gaussian resources, a brief introduction to GKP grid states, and Boson Sampling / Gaussian Boson Sampling.
 
 **How the course develops:** Instead of representing information only with two-level qubits, this lecture studies optical modes and the gates acting on their continuous variables.
 
