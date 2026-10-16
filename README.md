@@ -4,42 +4,36 @@ An evolving portfolio based on the [Quantum Programming Languages course](https:
 
 ## Progress checklist
 
-**How to read this:** A checked **course topic** means it has been covered in class. A checked **personal milestone** will mean I have studied, reproduced and verified the work myself. The two are tracked separately.
+Checked items have been **covered in class**; unchecked items are **upcoming course syllabus**, not personal assignments or claims of proficiency.
 
-### Topics covered in class
+### Topics already covered
 
-- [x] [Quantum Foundations & Gates](topics/quantum-foundations-and-gates.md) — states, measurement, entanglement and gates
+- [x] [Quantum Foundations & Gates](topics/quantum-foundations-and-gates.md) — quantum states, measurement, entanglement and gates
 - [x] [Photonic & Continuous-Variable Computing](topics/photonic-continuous-variables.md) — optical states and Gaussian operations
 - [x] [Adiabatic Optimization](topics/adiabatic-optimization.md) — Ising/QUBO, Max-Cut and routing formulations
 - [x] [Qiskit Circuits & Simulation](topics/qiskit-circuits.md) — circuit construction, GHZ and measurement
 - [x] [Oracle Algorithms](topics/oracle-algorithms.md) — Bernstein–Vazirani, Simon and GF(2)
 - [x] [Variational & Hybrid Algorithms](topics/variational-algorithms.md) — parameterized circuits and introductory VQE
 
-### Personal learning roadmap
+### Upcoming course topics
 
-**Foundation review**
-- [ ] Explain quantum states, gates, measurement and entanglement; work through a small circuit by hand.
-- [ ] Review optical CV states and Gaussian operations with a worked example.
-- [ ] Derive and classically verify a small Max-Cut Ising/QUBO model.
+**Advanced Qiskit**
+- [ ] Noise models and noisy quantum-circuit simulation
+- [ ] Quantum machine learning concepts and algorithms
 
-**Reproduce and verify**
-- [ ] Run the GHZ circuit and check expected measurement outcomes.
-- [ ] Rebuild Bernstein–Vazirani and test different hidden strings and bit orders.
-- [ ] Build a Simon oracle and solve measurement equations over GF(2).
-- [ ] Run the one-qubit VQE, verify the minimum against exact diagonalization, and explore sampling effects.
+**PennyLane**
+- [ ] Parameterized and dynamic quantum circuits
+- [ ] Discrete-variable and continuous-variable programming
+- [ ] Quantum machine learning with hybrid quantum–classical models
 
-**Go beyond the examples**
-- [ ] Design an original experiment, compare with a classical baseline and document reproducible results.
+**D-Wave Ocean**
+- [ ] Ising/QUBO modeling and quantum-annealing workflows
+- [ ] Graph, routing and logistics optimization examples
 
-### Further course modules
+**Course project**
+- [ ] Problem formulation, quantum-oriented implementation and comparison with classical methods
 
-The published course outline also includes these directions, which are not yet represented as completed practical work here:
-
-- [ ] Extended Qiskit work: noise-aware simulation and quantum machine learning.
-- [ ] PennyLane: parameterized quantum circuits, discrete/continuous variables and quantum ML.
-- [ ] D-Wave Ocean: Ising/QUBO optimization workflows and graph/logistics examples.
-
-*The checklist advances when work is actually covered or verified, rather than against arbitrary dates. Last reviewed: 16 October 2026.*
+*Upcoming items follow the published course outline. Exact teaching order and dates may change; boxes are checked only when the relevant content has actually been taught.*
 
 ## Code examples
 
