@@ -1,4 +1,4 @@
-"""Lecture 06: independent illustrative Bernstein–Vazirani reconstruction.
+"""Bernstein–Vazirani: illustrative quantum-oracle reconstruction.
 
 New AI-assisted study code inspired by the algorithm discussed in class.
 Not the instructor's notebook, and not verified student implementation.
