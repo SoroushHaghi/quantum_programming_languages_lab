@@ -1,34 +1,35 @@
 # Quantum Programming Languages — Learning Lab
 
-A public guide to my ongoing study of [Quantum Programming Languages](https://psiket.com/en/courses/quantum-language) with PsiKet Academy: **what each lecture covered, which examples were discussed, and what each stage is meant to achieve.**
+An evolving portfolio based on the [Quantum Programming Languages course](https://psiket.com/en/courses/quantum-language) offered by PsiKet Academy. Browse the concepts and their associated examples by **scientific topic**.
 
-## Explore the lectures
+## Explore the topics
 
-| Lecture | Topics | Details |
-| --- | --- | --- |
-| 01 | Quantum states, measurement and computation models | [Explore](lectures/01-foundations.md) |
-| 02 | Qubits, entanglement and quantum gates | [Explore](lectures/02-qubits-gates.md) |
-| 03 | Continuous-variable and photonic computing | [Explore](lectures/03-continuous-variables.md) |
-| 04 | Adiabatic computing, Ising/QUBO and optimization | [Explore](lectures/04-adiabatic-optimization.md) |
-| 05 | Qiskit circuits, simulation and GHZ | [Explore](lectures/05-qiskit-circuits.md) |
-| 06 | Bernstein–Vazirani and Simon's algorithm | [Explore](lectures/06-oracle-algorithms.md) |
-| 07 | Simon recap and hybrid VQE | [Explore](lectures/07-variational-vqe.md) |
+| Area | Focus |
+| --- | --- |
+| [Quantum Foundations & Gates](topics/quantum-foundations-and-gates.md) | Quantum states, measurement, qubits, entanglement and gates |
+| [Photonic & Continuous-Variable Computing](topics/photonic-continuous-variables.md) | Optical states, Gaussian operations and boson sampling |
+| [Adiabatic Optimization](topics/adiabatic-optimization.md) | Hamiltonian evolution, spectral gaps, Max-Cut and Ising/QUBO |
+| [Qiskit Circuits & Simulation](topics/qiskit-circuits.md) | Circuit construction, GHZ, transpilation and measurements |
+| [Oracle Algorithms](topics/oracle-algorithms.md) | Bernstein–Vazirani, Simon, phase kickback and GF(2) |
+| [Variational & Hybrid Algorithms](topics/variational-algorithms.md) | Parameterized circuits, VQE and classical optimization |
 
-**Course coverage:** Lectures 01–07 (16 October 2026).
+The topics follow a logical progression from foundations to implementation. They are not organized by lecture number.
 
-## Code and development
+## Code examples
 
-The [Qiskit examples](examples/) are AI-assisted study reconstructions of GHZ, Bernstein–Vazirani and VQE. They are not copies of instructor notebooks or evidence of personally validated student implementations. Independent code, tests and experiments will be added as completed.
+- [GHZ state](examples/ghz_state.py)
+- [Bernstein–Vazirani](examples/bernstein_vazirani.py)
+- [Variational Quantum Eigensolver](examples/vqe.py)
 
-**Run the study examples** (Python environment with Qiskit, NumPy and SciPy):
+These are AI-assisted educational reconstructions of course examples—not redistributed instructor files or independently verified student implementations. Personally completed work and experiments will be added with evidence.
+
+To try them locally (Qiskit, NumPy and SciPy):
 
 ```bash
 python -m pip install qiskit numpy scipy
-python examples/05_ghz.py
-python examples/06_bernstein_vazirani.py
-python examples/07_vqe.py
+python examples/ghz_state.py
+python examples/bernstein_vazirani.py
+python examples/vqe.py
 ```
 
-The mathematical checks have been reviewed, but Qiskit execution in a complete SDK environment remains to be verified.
-
-Original classroom materials and my full private study notes are not distributed here. This is an independent learning record, not an official course repository.
+Execution under a complete Qiskit SDK environment has not yet been verified. Instructor materials and private notes remain private. This is an independent portfolio, not an official course repository.
