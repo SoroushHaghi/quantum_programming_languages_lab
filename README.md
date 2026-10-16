@@ -1,21 +1,51 @@
 # Quantum Programming Languages — Learning Lab
 
-An independent learning portfolio following the [Quantum Programming Languages course](https://psiket.com/en/courses/quantum-language) offered by PsiKet Academy. It documents the scientific topics covered in class and will grow through my own verified implementations and experiments.
+An independent record of the [Quantum Programming Languages course](https://psiket.com/en/courses/quantum-language) offered by PsiKet Academy. This repository documents the lecture sequence and will gradually include my own reproducible implementations and experiments.
 
-## Course coverage — Lectures 1–7
+**Current course coverage:** Lectures 1–7 (16 October 2026). **Independent code:** Not yet published.
 
-1. **Quantum foundations (L1–L2):** Linear algebra, Dirac notation, measurement and Hamiltonian dynamics; qubits, Bloch sphere, entanglement and quantum gates.
-2. **Continuous-variable quantum computing (L3):** Optical qumodes, Fock/coherent/squeezed states, phase-space representations, Gaussian operations and boson sampling.
-3. **Adiabatic computing and optimization (L4):** Adiabatic evolution, spectral gaps, quantum annealing, Max-Cut, Ising/QUBO formulations and the traveling salesperson problem.
-4. **Qiskit and quantum algorithms (L5–L7):** Circuit construction, simulation and transpilation; Bernstein–Vazirani and Simon's algorithms.
-5. **Hybrid quantum–classical methods (L7):** Parameterized circuits, expectation-value estimation, classical optimization and the variational quantum eigensolver (VQE).
+## Learning trajectory
 
-## Current status — 16 October 2026
+Foundations → qubit-based and optical computing → adiabatic optimization → Qiskit circuits → quantum algorithms → hybrid variational methods.
 
-**Course progress:** Seven lectures documented in private study notes.
+## Lectures and learning objectives
 
-**Personal implementation:** Independent study, reconstruction and validation of the classroom code are the next steps. No personally implemented or experimentally verified results are claimed here yet.
+### 01 — Quantum foundations
+**Covered:** Linear algebra, quantum states, Dirac notation, unitary/Hermitian operators, measurement, Hamiltonians and time evolution. Introduced discrete-variable, continuous-variable, gate-based, measurement-based and adiabatic computation.
+**Objective:** Understand the state–operation–measurement model and the main approaches to quantum computing.
 
-**Next milestones:** Reproduce key algorithms, add tests and comparisons, and publish original experiments with clear source attribution.
+### 02 — Qubits and quantum gates
+**Covered:** Bloch sphere, tensor products, entanglement, Pauli rotations, spin dynamics, CNOT, CZ and SWAP. Circuit and Bell-state examples.
+**Objective:** Connect physical qubit evolution to elementary quantum circuits.
 
-Instructor materials and private study notes are not redistributed in this repository. This is an independent portfolio, not an official course repository.
+### 03 — Continuous-variable computing
+**Covered:** Optical modes, quadratures, Fock/coherent/squeezed states, phase-space representations, Gaussian operations and boson sampling.
+**Objective:** Distinguish photonic continuous-variable computation from qubit-based models.
+
+### 04 — Adiabatic optimization
+**Covered:** Hamiltonian interpolation, spectral gaps, quantum annealing, Max-Cut, Ising/QUBO encoding, traveling-salesperson constraints and hardware limitations.
+**Objective:** Understand how discrete optimization problems can be expressed as Hamiltonian energy minimization.
+
+### 05 — Qiskit programming
+**Covered:** Building circuits, standard gates, GHZ-state preparation, simulation, transpilation, measurement shots and the introduction to Bernstein–Vazirani.
+**Objective:** Follow a complete quantum-circuit simulation workflow.
+
+### 06 — Oracle-based quantum algorithms
+**Covered:** Bernstein–Vazirani, Boolean oracles, phase kickback, Simon's hidden XOR-period problem and GF(2) decoding.
+**Class demonstration:** Qiskit Bernstein–Vazirani circuit and histogram. Simon implementation was a classroom assignment.
+**Objective:** Explain how interference can expose hidden structure in an oracle.
+
+### 07 — Simon recap and VQE
+**Covered:** Simon oracle clarification, parameterized circuits, expectation values, classical optimization and the variational quantum eigensolver.
+**Class material:** A small Qiskit VQE notebook; additional handout material on ansatz design and Pauli measurements.
+**Objective:** Understand the hybrid quantum–classical optimization loop and its verification on small examples.
+
+## Progress and next steps
+
+The seven lectures above have been documented in private study notes. My systematic review and independent execution of the classroom examples are the next stage; I am **not** claiming personally verified implementations or experimental results yet.
+
+Upcoming additions will be student-written code, correctness tests, and original experiments, each identified by its actual contribution and evidence.
+
+The course outline also mentions PennyLane and D-Wave Ocean as later topics; they are **not** represented as completed implementations here.
+
+*This is an independent learning portfolio, not an official course distribution. Original classroom notebooks, slides, recordings and private notes remain private.*
