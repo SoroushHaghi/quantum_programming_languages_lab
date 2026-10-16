@@ -7,6 +7,7 @@
 **How the course develops:** Computation moves from circuit sequences to **encoding a problem in a final Hamiltonian** and searching for a low-energy configuration through gradual evolution.
 
 **Class material:**
+- **Annealing schedule:** Avoided crossings, local slowing near a small gap, and the Grover-search connection.
 - **Max-Cut:** A small graph, bit assignments and the connection between a graph cut and a ZZ interaction.
 - **Traveling Salesperson Problem:** One-hot city–time variables, route-length objective, visit/position constraints and quadratic penalties.
 - **Practical limits:** Small spectral gaps, variable scaling and restricted hardware connectivity.
