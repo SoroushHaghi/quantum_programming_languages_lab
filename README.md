@@ -20,4 +20,15 @@ A public guide to my ongoing study of [Quantum Programming Languages](https://ps
 
 Small [Qiskit study examples](examples/) recreate problems demonstrated in Lectures 05–07. They are **new, AI-assisted educational reconstructions**, not copies of the instructor's files or evidence of my own completed, independently validated implementation. My personal practice, tests and future project work will be added as they happen.
 
+**Run the study examples** (Python environment with Qiskit, NumPy and SciPy):
+
+```bash
+python -m pip install qiskit numpy scipy
+python examples/05_ghz.py
+python examples/06_bernstein_vazirani.py
+python examples/07_vqe.py
+```
+
+The mathematical checks have been reviewed, but Qiskit execution in a complete SDK environment remains to be verified.
+
 Original classroom materials and my full private study notes are not distributed here. This is an independent learning record, not an official course repository.
