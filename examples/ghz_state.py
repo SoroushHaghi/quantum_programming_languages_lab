@@ -1,4 +1,4 @@
-"""Lecture 05: illustrative Qiskit reconstruction of the GHZ classroom topic.
+"""GHZ state: illustrative Qiskit reconstruction of a course example.
 
 New AI-assisted example, not instructor source or verified student work.
 Uses a local statevector sampler; no real quantum device is involved.
