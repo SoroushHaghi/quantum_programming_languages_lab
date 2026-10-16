@@ -8,8 +8,9 @@
 
 **Class examples:**
 - Revisiting Simon's XOR oracle construction and bit ordering.
-- A one-qubit **VQE** example using the Hamiltonian \(H=2X-Z\), an \(R_y\) ansatz and classical optimization, with exact reference ground energy \(-\sqrt{5}\).
+- A one-qubit **VQE** example using the Hamiltonian $H=2X-Z$, an $R_y(\theta)$ ansatz and classical optimization, with exact reference ground energy $-\sqrt{5}$.
 - Accompanying handout material on ansatz design, Pauli-basis measurement and shot precision.
+- Course project briefing: mapping real-world optimization problems to binary variables and Hamiltonians, then evaluating quantum and classical approaches.
 
 **Study example:** [One-qubit VQE in Qiskit](../examples/07_vqe.py).
 
