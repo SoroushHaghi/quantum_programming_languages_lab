@@ -14,11 +14,11 @@ A public guide to my ongoing study of [Quantum Programming Languages](https://ps
 | 06 | Bernstein–Vazirani and Simon's algorithm | [Explore](lectures/06-oracle-algorithms.md) |
 | 07 | Simon recap and hybrid VQE | [Explore](lectures/07-variational-vqe.md) |
 
-**Class coverage:** Lectures 01–07, as of 16 October 2026. The course roadmap also mentions PennyLane and D-Wave Ocean for later stages; those are not claimed as covered in these seven sessions.
+**Course coverage:** Lectures 01–07 (16 October 2026).
 
 ## Code and development
 
-Small [Qiskit study examples](examples/) recreate problems demonstrated in Lectures 05–07. They are **new, AI-assisted educational reconstructions**, not copies of the instructor's files or evidence of my own completed, independently validated implementation. My personal practice, tests and future project work will be added as they happen.
+The [Qiskit examples](examples/) are AI-assisted study reconstructions of GHZ, Bernstein–Vazirani and VQE. They are not copies of instructor notebooks or evidence of personally validated student implementations. Independent code, tests and experiments will be added as completed.
 
 **Run the study examples** (Python environment with Qiskit, NumPy and SciPy):
 
